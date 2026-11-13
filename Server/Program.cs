@@ -7,7 +7,7 @@ namespace Server
     internal class Program
     {
         //127.0.0.1 //5000
-
+        
         private static ServerConfig _config = new ServerConfig();
         private static BlacklistManager _blacklist = new BlacklistManager();
         private static LicenseServer _server = null!;
@@ -270,9 +270,9 @@ namespace Server
             WriteColor("/config     - set initial settings", ConsoleColor.Green);
             WriteColor("/status     - list of users connected to the server", ConsoleColor.Green);
             WriteColor("/disconnect - disconnecting users from the server (/disconnect <token> or /disconnect all)", ConsoleColor.Green);
-            WriteColor("/block      - add IP or client to blacklist (/block <ip or token>) [Оценка 'Хорошо']", ConsoleColor.Green);
-            WriteColor("/unblock    - remove IP from blacklist (/unblock <ip>) [Оценка 'Хорошо']", ConsoleColor.Green);
-            WriteColor("/blacklist  - show blacklisted clients [Оценка 'Хорошо']", ConsoleColor.Green);
+            WriteColor("/block      - add IP or client to blacklist (/block <ip or token>) [на '4']", ConsoleColor.Green);
+            WriteColor("/unblock    - remove IP from blacklist (/unblock <ip>) [на '4']", ConsoleColor.Green);
+            WriteColor("/blacklist  - show blacklisted clients [на'4']", ConsoleColor.Green);
             WriteColor("/clear      - clear console window", ConsoleColor.Green);
             WriteColor("/exit       - shutdown server", ConsoleColor.Green);
         }
