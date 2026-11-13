@@ -6,6 +6,8 @@ namespace Server
 {
     internal class Program
     {
+        //127.0.0.1 //5000
+
         private static ServerConfig _config = new ServerConfig();
         private static BlacklistManager _blacklist = new BlacklistManager();
         private static LicenseServer _server = null!;
